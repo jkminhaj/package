@@ -163,3 +163,53 @@
     margin-left: 60px;
     margin-bottom: 20px;
 }
+
+/* WAtch section */
+.watch{
+    height: 290px;
+    position: relative;
+    bottom: 1090px;
+    left: 230px;
+}
+.gradient1{
+    height: 290px;
+    position: relative;
+    bottom: 1385px;
+    left: 230px;
+}
+.watch-title{
+    display: flex;
+    width: 459px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    bottom: 20px;
+
+}
+.watch-btn{
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.watch-content{
+    height: 290px;
+    position: relative;
+    bottom: 1600px;
+    left: 280px;
+}
