@@ -10,7 +10,7 @@
     background: url("images/banner/banner3.png"), lightgray 50% / cover no-repeat;
     width: 1600px;
     height: 808px;
-    /* flex-shrink: 0; */
+    flex-shrink: 0;
 }
 .head-title{
     /* display: flex; */
@@ -64,4 +64,51 @@
 }
 .head-all{
     margin-top: 24px;
+}
+
+/* faillure section */
+.fail{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+.fail-head{
+    display: flex;
+    width: 288px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fail-para{
+    display: flex;
+    width: 416px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.fail-list{
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.fail-description{
+    margin-top: 370px;
+    margin-right: 150px;
+}
+.fail-image{
+    margin-top: 130px;
+    margin-left: 150px;
 }
